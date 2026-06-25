@@ -128,4 +128,9 @@ These are good things to try when reviewing the prototype:
 
 ## Limitations
 
-> _To be filled in._
+> Images are low quality as they are basically sourced from the Figma at the existing quality. Didn't put much time into getting high-quality images or mapping them from Figma at a higher quality
+> didn't add more products or plans, as I focused most on the functionality and Figma accuracy.
+> Some counters were grey, which hinted they were disabled, but this was not mentioned in the take-home description, as far as I remember reading, so I made them accurate to Figma but didn't define maximum stock or whatever. They are just grey; they do not disable
+> didnt implement the backend, but added separate JSONs to simulate the responses from different endpoints.
+> added the " let's start text everywhere, even though they were not mentioned in the bigger screens, for consistency's sake
+> I chose the horizontal layout for the product cards from the design and continued with it throughout the whole implementation. So, vertical implementation of camera cards was not implemented. It would not have made sense to force vertical alignment when the screen was smaller, so I stuck with this implementation for UX sake
