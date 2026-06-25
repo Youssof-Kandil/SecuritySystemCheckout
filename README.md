@@ -1,6 +1,7 @@
 # Security System Checkout
 
-A single-page bundle builder for Wyze security systems. Pick cameras, a monitoring plan, sensors, and accessories — the live review panel updates in real time and persists your configuration across sessions.
+A single-page bundle builder for security systems didn't want to name it wi-ze since this is a public repo and implementation can be stolen by searching for the keyword
+. Pick cameras, a monitoring plan, sensors, and accessories — the live review panel updates in real time and persists your configuration across sessions.
 
 ---
 
@@ -98,13 +99,13 @@ These are good things to try when reviewing the prototype:
 - Add at least one camera — the button becomes active immediately.
 
 **Variant quantities are independent**
-- On the Wyze Cam v4, add 2 White units, then switch to Grey — the stepper resets to 0 (Grey's own count), while White's 2 remain.
+- On the Cam v4, add 2 White units, then switch to Grey — the stepper resets to 0 (Grey's own count), while White's 2 remain.
 - Both White and Grey appear as separate line items in the review panel.
 - Switching back to White shows 2 again — no data was lost.
 
 **Required item cannot be removed**
-- The Wyze Sense Hub is marked *Required* and ships free. Both the `−` button and the `+` button in the review panel are disabled — it cannot be removed or changed.
-- Calling `decrement('wyze-sense-hub')` directly in the store also floors at 1.
+- The  Sense Hub is marked *Required* and ships free. Both the `−` button and the `+` button in the review panel are disabled — it cannot be removed or changed.
+- Calling `decrement('-sense-hub')` directly in the store also floors at 1.
 
 **Review panel stays in sync**
 - Incrementing or decrementing a camera in the accordion card updates the count and total in the review panel instantly (and vice versa — the same Zustand key drives both steppers).
