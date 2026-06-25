@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Norms Pro';
+  src: url('./assets/fonts/tt-norms-pro-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@keyframes accordion-down {
+  from { height: 0; }
+  to { height: var(--radix-accordion-content-height); }
+}
+
+@keyframes accordion-up {
+  from { height: var(--radix-accordion-content-height); }
+  to { height: 0; }
+}
+
+@theme {
+  --animate-accordion-down: accordion-down 300ms cubic-bezier(0.87, 0, 0.13, 1);
+  --animate-accordion-up: accordion-up 300ms cubic-bezier(0.87, 0, 0.13, 1);
+  --font-tt-norms: 'TT Norms Pro', sans-serif;
+  --color-gray-c-200: #F0F4F7;
+  --color-gray-c-300: #E6EBF0;
+  --color-gray-c-400: #CED6DE;
+  --color-gray-c-500: #A8B2BD;
+  --color-gray-c-600: #6F7882;
+  --color-gray-c-700: #525963;
+  --color-gray-c-obsidian: #0B0D10;
+  --color-gray-mid: #484848;
+  --color-gray-dark: #1F1F1F;
+  --color-gray-light: #CCCCCC;
+  --color-near-white: #F1F1F2;
+  --color-utility-gray: #575757;
+  --color-wyze-purple: #4E2FD2;
+  --color-wyze-blue: #0046C7;
+  --color-wyze-teal: #0AA288;
+  --color-wyze-red: #D8392B;
+  --color-blue-bg: #EDF4FF;
+  --color-white: #FFFFFF;
+
+  --font-gilroy: 'Gilroy', sans-serif;
+}
+
+*, *::before, *::after {
+  font-family: 'Gilroy', sans-serif;
+}

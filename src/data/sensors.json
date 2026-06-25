@@ -1,0 +1,23 @@
+[
+  {
+    "id": "wyze-sense-motion",
+    "name": "Wyze Sense Motion Sensor",
+    "description": "Detect motion in any room with instant alerts.",
+    "price": 29.99,
+    "image": "wyze_motion.png",
+    "learnMoreUrl": "https://www.wyze.com/products/wyze-sense",
+    "isSvg": false
+  },
+  {
+    "id": "wyze-sense-hub",
+    "name": "Wyze Sense Hub (Required)",
+    "description": "The hub that connects all your Wyze sensors.",
+    "compareAtPrice": 29.92,
+    "price": 0,
+    "priceLabel": "FREE",
+    "image": "wyze_sense.png",
+    "learnMoreUrl": "https://www.wyze.com/products/wyze-sense-hub",
+    "isSvg": false,
+    "fixed": true
+  }
+]

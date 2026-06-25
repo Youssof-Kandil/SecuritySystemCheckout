@@ -1,0 +1,12 @@
+[
+  {
+    "id": "cam-unlimited",
+    "name": "Cam Unlimited",
+    "description": "24/7 professional monitoring and unlimited camera recording.",
+    "compareAtPrice": 12.99,
+    "price": 9.99,
+    "period": "mo",
+    "image": "Layer_1.svg",
+    "isSvg": true
+  }
+]

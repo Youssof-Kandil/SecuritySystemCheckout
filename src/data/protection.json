@@ -1,0 +1,11 @@
+[
+  {
+    "id": "wyze-microsd-256",
+    "name": "Wyze MicroSD Card (256GB)",
+    "description": "Store more footage locally with a high-capacity card.",
+    "price": 20.98,
+    "image": "wyze_microSD.png",
+    "learnMoreUrl": "https://www.wyze.com/products/wyze-microsd-card",
+    "isSvg": false
+  }
+]
